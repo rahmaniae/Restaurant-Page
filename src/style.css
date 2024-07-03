@@ -1,0 +1,36 @@
+header{
+    margin-bottom: 16px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 8px;
+}
+.card {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 8px;
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.price {
+    color: grey;
+    margin-top: auto;
+    font-weight: 700;
+}
